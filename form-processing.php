@@ -28,12 +28,12 @@ const HAS_SEND_EMAIL = true;
 // добавить ли прикреплённые файлы в тело письма в виде ссылок
 const HAS_ATTACH_IN_BODY = true;
 const EMAIL_SETTINGS = [
-  'addresses' => ['manager@domain.com'], // кому необходимо отправить письмо
+  'addresses' => ['nina-r-2014@mail.ru'], // кому необходимо отправить письмо
   'from' => ['no-reply@domain.com', 'Имя сайта'], // от какого email и имени необходимо отправить письмо
   'subject' => 'Сообщение с формы обратной связи', // тема письма
-  'host' => 'ssl://smtp.yandex.ru', // SMTP-хост
-  'username' => 'name@yandex.ru', // // SMTP-пользователь
-  'password' => '*********', // SMTP-пароль
+  'host' => 'ssl://smtp.mail.ru', // SMTP-хост
+  'username' => 'nina-r-2014@mail.ru', // // SMTP-пользователь
+  'password' => 'bmuJNS9ZmCRmE6Z92hm4', // SMTP-пароль
   'port' => '465' // SMTP-порт
 ];
 const HAS_SEND_NOTIFICATION = false;
